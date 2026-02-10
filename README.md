@@ -1,1 +1,1 @@
-# landing-page
+Finally finished my landing page for The Odin Project! 🚀 I built the whole thing from scratch and spent way too much time wrestling with Flexbox, but honestly, it feels so good to finally get those divs to sit where they’re supposed to. It’s wild how much goes into making a site look 'pro' with just HTML and CSS. Now that I’ve got the layout stuff down, I’m moving on to the big boss: JavaScript. Let's see what happens!
