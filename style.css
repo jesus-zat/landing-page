@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Roboto;
+    margin: 0;
+}
+.container {
+    border: 2px solid blue;
+ 
+}
+
+.header-ineer {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 16px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.head {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #FbFAF8;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #FbFAF8;
+    margin: 18px 0;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color:#FbFAF8;
+    border-radius: 8px;
+    padding: 10px 32px;
+    font-weight: bold;
+}
+
+.leftwidth, .rightwidth {
+    flex: 1;
+}
+
+.content {
+    background-color: #1F2937;
+    padding: 80px 0;
+}
+
+.content-inneer {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+.img {
+    background-color: #6b7280;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inf {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.card {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.text {
+    text-align: center;
+}
+.info {
+  max-width: 200px;
+}
+.signup {
+    background-color: #E5E7EB;
+    padding: 50px 0;
+}
+
+.signup-inner {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.author {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.texto {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.modal {
+    padding: 40px 0;
+}
+
+.modal-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 60px;
+
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-text {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+
+.modal-text {
+    margin: 5px 0 0;
+    color: #E5E7EB;
+}
+
+.modal-button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
